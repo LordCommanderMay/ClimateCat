@@ -6,7 +6,7 @@ import json
 
 
 def represent(dictionary, title=None):
-    # this function should be  moved
+    # this function should be  moved to log.py
     """used to create text repr for are objects in a card like format for use in console and logging"""
     return_string = ''
     # find longest strings for formatting
